@@ -5,16 +5,16 @@ Git e GitHub
 
 
 # Como saber a versão do git
-Geisa@Adair-PC MINGW32 ~/Desktop/beacademy-devstart-gitegithub
+Geisa@Adair-PC MINGW32 ~/Desktop/beacademy-devstart-gitegithub <br>
 	$ git version
 git version 2.39.0.windows.2
 
 
 # Configurando o git com o nome e com e-mail
-Geisa@Adair-PC MINGW32 ~/Desktop/beacademy-devstart-gitegithub
+Geisa@Adair-PC MINGW32 ~/Desktop/beacademy-devstart-gitegithub <br>
 	$ git config --global user.name "geiza-moreira"
 
-Geisa@Adair-PC MINGW32 ~/Desktop/beacademy-devstart-gitegithub
+Geisa@Adair-PC MINGW32 ~/Desktop/beacademy-devstart-gitegithub <br>
 	$ Git config --global user.email "geizaphm2021@gmail.com"
 
 
@@ -22,7 +22,7 @@ Geisa@Adair-PC MINGW32 ~/Desktop/beacademy-devstart-gitegithub
 
 # Clone do repositório do github
 
-Geisa@Adair-PC MINGW32 ~/Desktop/beacademy-devstart-gitegithub
+Geisa@Adair-PC MINGW32 ~/Desktop/beacademy-devstart-gitegithub <br>
 	$ git clone git@github.com:geiza-moreira/beacademy-devstart-gitegithub.git
 Cloning into 'beacademy-devstart-gitegithub'...
 Enter passphrase for key '/c/Users/Adair & Geisa/.ssh/id_ed25519':
@@ -45,13 +45,13 @@ nothing to commit, working tree clean
 
 
 # Visualizar o repositório remoto
-Geisa@Adair-PC MINGW32 ~/Desktop/beacademy-devstart-gitegithub/beacademy-devstart-gitegithub (main)
+Geisa@Adair-PC MINGW32 ~/Desktop/beacademy-devstart-gitegithub/beacademy-devstart-gitegithub (main) <br>
 	$ git remote -v
 origin  git@github.com:geiza-moreira/beacademy-devstart-gitegithub.git (fetch)
 origin  git@github.com:geiza-moreira/beacademy-devstart-gitegithub.git (push)
 
 # Fazendo alteração no readme
-Geisa@Adair-PC MINGW32 ~/Desktop/beacademy-devstart-gitegithub/beacademy-devstart-gitegithub (main)
+Geisa@Adair-PC MINGW32 ~/Desktop/beacademy-devstart-gitegithub/beacademy-devstart-gitegithub (main) <br>
 	$ git status
 On branch main
 Your branch is up to date with 'origin/main'.
@@ -63,10 +63,10 @@ Changes not staged for commit:
 
 
 # Preparando a alteração para ser commitada
-Geisa@Adair-PC MINGW32 ~/Desktop/beacademy-devstart-gitegithub/beacademy-devstart-gitegithub (main)
+Geisa@Adair-PC MINGW32 ~/Desktop/beacademy-devstart-gitegithub/beacademy-devstart-gitegithub (main) <br>
 	$ git add .
 
-Geisa@Adair-PC MINGW32 ~/Desktop/beacademy-devstart-gitegithub/beacademy-devstart-gitegithub (main)
+Geisa@Adair-PC MINGW32 ~/Desktop/beacademy-devstart-gitegithub/beacademy-devstart-gitegithub (main) <br>
 	$ git status
 On branch main
 Your branch is up to date with 'origin/main'.
@@ -77,14 +77,14 @@ Changes to be committed:
 
 
 # Fazendo o Commit
-Geisa@Adair-PC MINGW32 ~/Desktop/beacademy-devstart-gitegithub/beacademy-devstart-gitegithub (main)
+Geisa@Adair-PC MINGW32 ~/Desktop/beacademy-devstart-gitegithub/beacademy-devstart-gitegithub (main) <br>
 	$ git commit -m "Ajustes no readme"
 [main e6052b5] Ajustes no readme
  1 file changed, 2 insertions(+)
 
 
 # Enviando alterações para o repositório remote
-Geisa@Adair-PC MINGW32 ~/Desktop/beacademy-devstart-gitegithub/beacademy-devstart-gitegithub (main)
+Geisa@Adair-PC MINGW32 ~/Desktop/beacademy-devstart-gitegithub/beacademy-devstart-gitegithub (main) <br>
 	$ git push
 Enter passphrase for key '/c/Users/Adair & Geisa/.ssh/id_ed25519':
 Enumerating objects: 5, done.
