@@ -23,7 +23,7 @@ Geisa@Adair-PC MINGW32 ~/Desktop/beacademy-devstart-gitegithub <br>
 # Clone do repositório do github
 
 Geisa@Adair-PC MINGW32 ~/Desktop/beacademy-devstart-gitegithub <br>
-	$ git clone git@github.com:geiza-moreira/beacademy-devstart-gitegithub.git
+	$ git clone git@github.com:geiza-moreira/beacademy-devstart-gitegithub.git <br>
 Cloning into 'beacademy-devstart-gitegithub'...
 Enter passphrase for key '/c/Users/Adair & Geisa/.ssh/id_ed25519':
 remote: Enumerating objects: 3, done.
@@ -34,10 +34,10 @@ Receiving objects: 100% (3/3), done.
 
 # Para acessar o diretório 
 
-	$ cd beacademy-devstart-gitegithub
+	$ cd beacademy-devstart-gitegithub <br>
 
 Geisa@Adair-PC MINGW32 ~/Desktop/beacademy-devstart-gitegithub/beacademy-devstart-gitegithub (main)
-	$ git status
+	$ git status <br>
 On branch main
 Your branch is up to date with 'origin/main'.
 
@@ -46,13 +46,13 @@ nothing to commit, working tree clean
 
 # Visualizar o repositório remoto
 Geisa@Adair-PC MINGW32 ~/Desktop/beacademy-devstart-gitegithub/beacademy-devstart-gitegithub (main) <br>
-	$ git remote -v
+	$ git remote -v <br>
 origin  git@github.com:geiza-moreira/beacademy-devstart-gitegithub.git (fetch)
 origin  git@github.com:geiza-moreira/beacademy-devstart-gitegithub.git (push)
 
 # Fazendo alteração no readme
 Geisa@Adair-PC MINGW32 ~/Desktop/beacademy-devstart-gitegithub/beacademy-devstart-gitegithub (main) <br>
-	$ git status
+	$ git status <br>
 On branch main
 Your branch is up to date with 'origin/main'.
 
@@ -65,10 +65,10 @@ Changes not staged for commit:
 
 # Preparando a alteração para ser commitada
 Geisa@Adair-PC MINGW32 ~/Desktop/beacademy-devstart-gitegithub/beacademy-devstart-gitegithub (main) <br>
-	$ git add .
+	$ git add . <br>
 
 Geisa@Adair-PC MINGW32 ~/Desktop/beacademy-devstart-gitegithub/beacademy-devstart-gitegithub (main) <br>
-	$ git status
+	$ git status <br>
 On branch main
 Your branch is up to date with 'origin/main'.
 
@@ -79,14 +79,14 @@ Changes to be committed:
 
 # Fazendo o Commit
 Geisa@Adair-PC MINGW32 ~/Desktop/beacademy-devstart-gitegithub/beacademy-devstart-gitegithub (main) <br>
-	$ git commit -m "Ajustes no readme"
+	$ git commit -m "Ajustes no readme" <br>
 [main e6052b5] Ajustes no readme
  1 file changed, 2 insertions(+)
 
 
 # Enviando alterações para o repositório remoto
 Geisa@Adair-PC MINGW32 ~/Desktop/beacademy-devstart-gitegithub/beacademy-devstart-gitegithub (main) <br>
-	$ git push
+	$ git push <br>
 Enter passphrase for key '/c/Users/Adair & Geisa/.ssh/id_ed25519':
 Enumerating objects: 5, done.
 Counting objects: 100% (5/5), done.
