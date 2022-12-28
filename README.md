@@ -59,7 +59,8 @@ Your branch is up to date with 'origin/main'.
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
-        modified:   README.md
+       <font color="#000099"> modified:   README.md </font>
+        
 
 
 # Preparando a alteração para ser commitada
@@ -73,7 +74,7 @@ Your branch is up to date with 'origin/main'.
 
 Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
-        modified:   README.md
+      <font color="#008000"> modified:   README.md </font>
 
 
 # Fazendo o Commit
@@ -83,7 +84,7 @@ Geisa@Adair-PC MINGW32 ~/Desktop/beacademy-devstart-gitegithub/beacademy-devstar
  1 file changed, 2 insertions(+)
 
 
-# Enviando alterações para o repositório remote
+# Enviando alterações para o repositório remoto
 Geisa@Adair-PC MINGW32 ~/Desktop/beacademy-devstart-gitegithub/beacademy-devstart-gitegithub (main) <br>
 	$ git push
 Enter passphrase for key '/c/Users/Adair & Geisa/.ssh/id_ed25519':
